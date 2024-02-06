@@ -1,0 +1,21 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css');
+
+    body {
+      background: var(--tg-theme-bg-color) !important;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      text-rendering: optimizeLegibility;
+    }
+
+    .browser-default {
+      outline: none !important;
+      background: var(--tg-theme-bg-color) !important;
+      border: none !important;
+      max-height: 50px !important;
+      color: var(--tg-theme-text-color) !important;
+      cursor: pointer;
+      box-shadow: none !important;
+    }
